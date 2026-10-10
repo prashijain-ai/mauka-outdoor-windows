@@ -52,7 +52,7 @@ Use another Gemma by setting `MAUKA_MODEL` (an Ollama tag) or editing the sideba
 - Baselines: *persistence* (tomorrow = today), *climatology* (historical rate for that month and hour), *logistic regression*, *gradient-boosted trees*.
 - Metrics: ROC AUC, Brier score (calibration), accuracy, F1.
 
-Limitations to state in your post:
+Limitations:
 - Gridded reanalysis and model data, not street-level sensors.
 - Training uses archived "today" values; live use mixes observations and forecasts for the rest of today.
 - The thresholds are a simple definition of "good", not medical advice.
@@ -60,13 +60,6 @@ Limitations to state in your post:
 
 ## What I could not test in the build environment
 These need your machine: live Open-Meteo calls (the air-quality history start date may limit `--start`), TabPFN weights and speed, and Ollama/Gemma generation. Tests and the demo mode were run with synthetic data and a baseline model.
-
-## Challenge checklist
-- [ ] New public repo, started inside the challenge window (Oct 5 to 11); note any later commits in this README.
-- [ ] Run `evaluate.py` for your city and paste the real table into the post.
-- [ ] Take it outside for a day and report what happened.
-- [ ] Demo video, English DEV post from the official template, tags `devchallenge` and `hf26challenge`.
-- [ ] Post explains why open models matter here (local, private, inspectable).
 
 ## Credits
 Weather and air quality: Open-Meteo.com (CC BY 4.0); air quality from Copernicus CAMS. Models: TabPFN (Prior Labs), Gemma (Google).
