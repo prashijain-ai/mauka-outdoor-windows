@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+data/*.csv
+.pytest_cache/
+
+.env
+*.key
+*.pem
+*token*
+.DS_Store

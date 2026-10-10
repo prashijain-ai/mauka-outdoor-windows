@@ -1,0 +1,7 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+requests>=2.31
+streamlit>=1.36
+tabpfn>=2.0
+pytest>=8.0

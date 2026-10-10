@@ -1,0 +1,7 @@
+# Force the light theme so the page looks the same on every machine
+[theme]
+base = "light"
+primaryColor = "#2F7FA8"
+backgroundColor = "#F2F5F6"
+secondaryBackgroundColor = "#E4EBEE"
+textColor = "#14232E"
