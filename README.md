@@ -119,6 +119,4 @@ results/            saved results per city
 
 Weather and air quality: [Open-Meteo.com](https://open-meteo.com) (CC BY 4.0), with air quality from Copernicus CAMS. Models: TabPFN (Prior Labs) and Gemma (Google). Built for the Hacktoberfest 2026 DEV Challenge.
 
-## License
 
-MIT. See `LICENSE`.
